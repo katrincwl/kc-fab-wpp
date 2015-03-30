@@ -1,0 +1,3 @@
+[submodule "assets/vendor/kc_fab"]
+	path = assets/vendor/kc_fab
+	url = https://github.com/katrincwl/kc_fab.git
