@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: KC FAB
- * Plugin URI: https://github.com/katrincwl/kc_fab
+ * Plugin URI: https://github.com/katrincwl/kc_fab_wpp
  * Description: KC FAB is a jQuery plugin to create materialize floating action button easily.
  * Version: 1.0.0
  * Author: Mark Luk

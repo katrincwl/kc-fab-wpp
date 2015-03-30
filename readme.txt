@@ -1,6 +1,6 @@
 === KC FAB ===
 Contributors: katrin.cwl@gmail.com
-Donate link: https://github.com/katrincwl/kc_fab
+Donate link: https://github.com/katrincwl/kc_fab_wpp
 Tags: comments, spam
 Requires at least: 3.0.1
 Tested up to: 3.4
