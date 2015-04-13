@@ -22,6 +22,15 @@ class Kc_Fab_Wpp_Public{
         wp_enqueue_script('kc-fab-base');
         wp_register_script('init-kc-fab', plugin_dir_url( __FILE__ ) . '../assets/js/init-kc-fab.js', array( 'jquery' ), $this->version, true);
         wp_enqueue_script('init-kc-fab');
+
+        $social_action = get_option('kc_fab_social_action');
+        $fb_url = get_option('kc_fab_fb_link');
+        $google_url = get_option('kc_fab_gp_link');
+        $twitter_url = get_option('kc_fab_twitter_link');
+
+        $social_links = array('social_action' => $social_action, 'fb_url' => $fb_url, 'google_url' => $google_url, 'twitter_url' => $twitter_url);
+
+        wp_localize_script( 'init-kc-fab', 'social_links', $social_links );
     }
 
     public function insert_fab_dom(){

@@ -24,6 +24,8 @@ class Kc_Fab_Wpp {
         $plugin_admin = new Kc_Fap_Wpp_admin($this->get_plugin_name(), $this->get_version());
         add_action( 'wp_enqueue_scripts', array($plugin_admin, 'enqueue_styles'));
         add_action( 'wp_enqueue_scripts', array($plugin_admin, 'enqueue_scripts'));
+        add_action( 'admin_init', array($plugin_admin, 'fab_register_settings'));
+        add_action( 'admin_menu', array($plugin_admin, 'fab_plugin_menu'));
     }
 
     private function define_public_hooks(){
