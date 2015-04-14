@@ -8,4 +8,29 @@ Stable tag: 4.3
 License: MIT
 License URI: https://github.com/katrincwl/kc_fab/blob/master/LICENSE
 
-KC FAB is a jQuery plugin to create materialize floating action button easily.
+KC FAB WPP is a wordpress plugin to create materialize floating action button easily.
+
+== Description ==
+KC FAB is a  plugin to create materialize floating action button easily.
+In the plugin setting page, you can set the button on-click function, either one of the following
+  1. Go to your social network page
+  2. Share current page/post to social network
+
+== Installation ==
+* Manually Install
+Go to https://github.com/katrincwl/kc_fab_wpp to download the plugin, rename the zip filename to kc-fab-wpp and upload to install
+* Install through Plugin manager
+Search for KC FAB in plugin page and install
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to 'Setting' --> 'KC FAB' to configure the KC FAB options
+
+
+== Screenshots ==
+
+1. The KC FAB option setting page
+
+2. After configuration and activation, the floating action button will occur on every posts/pages
+
+3. On click effect
+
+== Changelog ==
