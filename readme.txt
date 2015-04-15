@@ -6,7 +6,7 @@ Requires at least: 3.0.1
 Tested up to: 4.1.1
 Stable tag: 4.1.1
 License: MIT
-License URI: https://github.com/katrincwl/kc_fab/blob/master/LICENSE
+License URI: https://github.com/katrincwl/kc-fab-wpp/blob/master/LICENSE
 
 KC FAB WPP is a wordpress plugin to create materialize floating action button easily.
 
