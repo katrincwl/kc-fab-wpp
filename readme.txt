@@ -18,7 +18,7 @@ In the plugin setting page, you can set the button on-click function, either one
 
 == Installation ==
 * Manually Install
-Go to https://github.com/katrincwl/kc_fab_wpp to download the plugin, rename the zip filename to kc-fab-wpp and upload to install
+Go to https://github.com/katrincwl/kc_fab_wpp to download the plugin, extract the zip file and rename the folder to kc-fab-wpp and upload your plugin folder 
 * Install through Plugin manager
 Search for KC FAB in plugin page and install
 2. Activate the plugin through the 'Plugins' menu in WordPress
